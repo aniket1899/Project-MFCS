@@ -1,6 +1,12 @@
-# Project-MFCS
-## MFCS Capstone Project: Clustering, Interactive Dash, Customer Lifetime Prediction
-
+# Project-MFCS (Created: August 2020)
+### MFCS Capstone Project TLDR:
+* Clustering, Interactive Dash, Customer Lifetime Prediction w/ RFM analysis. 
+* Created a Dashboard using Plotly-dash library in Python. Data Cleaning, EDA, Feature elimintaion analysis, Feature selection done using Jupyter notebooks. 
+* Used multi-threading for converting features into the RFM-analysis format. (RFM - Recency Frequency, Monetary analysis)
+* ML algorithms that were considered: Boosting techniques, Decision Tree (to map non-linearity), Support Vector Machine for Regression (because the target variable was parabolic in nature). 
+* ML algorithms that were not considered: Linear Regression (since non-linear nature of the data). 
+* Implemented GridSearchCV to find optimal parameters for XGBoost with an accuray of 84%.
+* SVR was too time-consuming to implement within the allowed time frame of the project. 
 
 ### Introduction
 
